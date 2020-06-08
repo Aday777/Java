@@ -1,11 +1,15 @@
-package com.company;
+package com.edustation;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-public class Password {
+public class Password extends Profile {
+
+    public Password() {
+        super(id);
+    }
 
     public static void main(String[] args) {
 
@@ -71,3 +75,4 @@ public class Password {
 
     }
 }
+
